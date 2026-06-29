@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "node src/app.js",
-    "dev":"node --watch src/app.js",
+    "dev": "node --watch src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,7 +14,9 @@
   "description": "",
   "dependencies": {
     "cookie-parser": "^1.4.7",
+    "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "express-session": "^1.19.0"
+    "express-session": "^1.19.0",
+    "mongoose": "^9.7.3"
   }
 }
